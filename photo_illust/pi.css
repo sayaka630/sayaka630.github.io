@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+:root {
+    --primary-50: #df960f; 
+    --secondary-050: #3e0c44; 
+    --head-color: #1a0227;
+    --color-1: rgba(101, 105, 80, 0.87);
+    --color-2: rgb(108, 117, 88);
+    --dark: rgba(0,0,0,0.26);
+    --light: rgba(255,255,255,1.00);
+    --gray: rgb(97, 97, 97);
+    --right-gray: rgb(231, 231, 231);
+    
+
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    font-feature-settings: "palt";
+    font-size: 16pt;
+}
+
+
+
+.global-nav h1 {
+    font-size: 1.5rem;
+    
+    margin-left: 1rem;
+    color: var(--color-1);
+    text-shadow: 1px 1px 0 var(--dark);
+
+    
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Pacifico', cursive;
+}
+
+section:nth-child(2n + 1) {
+    background-color: var(--primary-050);
+    
+}
+
+
+.global-nav {
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: var(--light);
+    justify-content: space-between;
+}
+
+
+
+
+#head {
+    opacity: 0.75;
+    background-image: linear-gradient(to top, #ffffff 0%, #f7ff8b 100%);
+    z-index: -1;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+    color: var(--head-color);
+    margin-bottom: 100px;
+}
+
+
+
+#sec1 {
+    color: var(--color-2);
+    font-size: 2.5rem;
+    height: 100%;
+    font-weight: normal;
+    margin: 150px 0 0 0;
+}
+
+.image-1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.image-1 img {
+    margin: 20px 30px;
+    height: 180px;
+    width: 240px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.image-1 h3 {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: var(--gray);
+}
+
+
+.image-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.image-2 img {
+    margin: 20px 30px;
+    height: 180px;
+    width: 240px;
+    border: 1px solid var(--gray);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.image-2 h3 {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: var(--gray);
+}
+
+.image-2 p {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+
+h4 {
+    font-size: 2rem;
+    color: var(--gray);
+    padding-top: 200px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+
+
+
+
